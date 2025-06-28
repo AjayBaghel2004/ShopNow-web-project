@@ -1,0 +1,3 @@
+Login Page =>  label(email, password)  input(email, password) button(login, forgot password)
+
+Registration page=> label(First Name, Last Name, contacts, Email, OTP, age, address,, postal code, City , state , Country )
