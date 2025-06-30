@@ -219,14 +219,13 @@ input[placeholder="Search products brands and more"]:focus {
 }
 #main-section{
     min-width: 642px;
+    margin: 20px;
 }
 #main-section main{
     width:100%;
     background-color: white;
-    margin:5px;
     padding:10px;
 }
-
 .prod-category{
     display: flex;
     justify-content: space-between;
@@ -238,6 +237,25 @@ input[placeholder="Search products brands and more"]:focus {
     scroll-snap-align: start;
     width: 100%;
 }
+.prod-category a{
+    text-decoration: none;
+}
 div.prod-category div p{
     text-align:center;
+    color: #333;
+}
+.prod-category div p:hover{
+    color: crimson;
+}
+.carousal{
+    margin-block:25px;
+
+}
+.slider{
+    width: 100%;
+    display:flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type:x mandatory;
+
 }
